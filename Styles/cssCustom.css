@@ -1,0 +1,110 @@
+﻿
+/* -------------------------------------------------------------------------------- */
+/* Forms and Controls */
+/* -------------------------------------------------------------------------------- */
+/* WMain */
+#frmMain
+{
+    width:              400px;
+    Xoutline:           solid 1px red;
+    text-align:         left;
+}
+
+/* WSeatPick */
+#frmSeatPicker
+{
+    width:              1200px;
+    Xoutline:           solid 1px red;
+    text-align:         center;
+}
+
+#lblControls
+{
+    Xoutline:            solid 1px green;
+    width:              400px;
+    height:             300px;
+    float:              left;   /* To make lblSeatSchema attached from right */
+    padding:            10px;
+}
+
+#lblControls *
+{
+    Xoutline:           solid 1px green;
+    margin-left:        5px;
+}
+
+/* Images of the seats*/
+#spnSeatSchema .spnAvailableSeat, .spnUnavailableSeat, .spnPickedSeat
+{
+    Xoutline:            solid 1px red;
+    width:              32px;
+    height:             32px;
+    display:            inline-block;
+}
+
+.spnAvailableSeat
+{
+    background-image:   url(../Images/AvailableSeat.png);
+    background-repeat:  no-repeat;
+}
+
+.spnUnavailableSeat
+{
+    background-image:   url(../Images/UnavailableSeat.png);
+    background-repeat:  no-repeat;
+}
+
+.spnPickedSeat
+{
+    background-image:   url(../Images/PickedSeat.png);
+    background-repeat:  no-repeat;
+}
+
+/* Seats hover over */
+.spnAvailableSeat:hover
+{
+    background-image:   url(../Images/AvailableSeatHoverOn.png);
+    background-repeat:  no-repeat;
+}
+
+.spnUnavailableSeat:hover
+{
+    background-image:   url(../Images/UnavailableSeatHoverOn.png);
+    background-repeat:  no-repeat;
+}
+
+/* Seat schema */
+#spnSeatSchema 
+{    
+    Xoutline:           solid 1px green;
+    width:              720px;
+    height:             610px;
+    padding:            10px;
+    margin-left:        10px;
+    background-color:   white;
+    display:            inline-block;
+}
+
+/* WMain */            
+label
+{
+    Xoutline:           solid 1px green;
+    display:            inline-block;      /* Otherwise ignores width */
+    text-align:         left;           
+}
+
+.spnShowInfo 
+{
+    Xoutline:           solid 1px green;
+    display:            inline-block;      
+    text-align:         left;
+    width:              100%;    
+}
+
+.spnShowInfo a
+{
+    Xoutline:           solid 1px green;
+    display:            inline-block;      
+    text-align:         left;
+    float:              right;    
+}

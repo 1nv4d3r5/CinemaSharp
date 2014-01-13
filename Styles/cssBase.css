@@ -1,0 +1,53 @@
+﻿/* Everything should be Arial font by default */
+*
+{
+    font-family:        Arial;
+    font-size:          11pt;
+}
+        
+body
+{
+    background-color:    white;
+    text-align: left;
+}
+            
+.ApplicationTitle
+{
+    font-size:          200%;
+    border-bottom:      1px solid black;
+    width:              90%;
+    margin:             10px 0px 10px 20px;
+}
+       
+fieldset
+{
+    border-color:       #888888;    
+    border-style:       solid;
+    border-width:       1px;
+}
+
+h1
+{
+	background-color:   black;
+	color:              white;
+	padding:            3pt;
+	margin-bottom:      12pt;
+}
+
+form
+{
+    line-height:        28px;              /* Veritcally space out all controls in all forms */   
+    text-align:         center;            /* Center all content */
+    margin:             auto auto;         /* Center in page */
+    padding:            0px;
+}
+            
+.Button
+{
+    Xoutline: solid 1px red;
+    margin-top:         10px;
+    margin-bottom:      5px;
+    margin-left:        5px;
+    margin-right:       5px;
+    width:              130px;
+}
